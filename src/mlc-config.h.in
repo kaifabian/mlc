@@ -1,0 +1,9 @@
+#cmakedefine MLCLIB_PLATFORM_CLASS @MLCLIB_PLATFORM_CLASS@
+#ifndef MLCLIB_PLATFORM_CLASS
+  #error "No platform class specified. Exiting."
+#endif
+
+#cmakedefine USE_NATIVE_TIMERS @USE_NATIVE_TIMERS@
+#cmakedefine USE_NATIVE_LATENCYTEST @USE_NATIVE_LATENCYTEST@
+
+// EOF //
